@@ -1,94 +1,84 @@
 // SansSerif
 @font-face {
-  font-family: 'Plex';
-  src: url('#{$static-path}/fonts/IBMPlexSans-Light.ttf') format('truetype');
-  font-weight: 300;
-  font-style: normal;
+    font-family: 'Plex';
+    src: url('#{$static-path}/fonts/IBMPlexSans-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
 }
 
 @font-face {
-  font-family: 'Plex';
-  src:
-    url('#{$static-path}/fonts/IBMPlexSans-LightItalic.ttf') format('truetype');
-  font-weight: 300;
-  font-style: italic;
+    font-family: 'Plex';
+    src: url('#{$static-path}/fonts/IBMPlexSans-LightItalic.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
 }
 
 @font-face {
-  font-family: 'Plex';
-  src:
-    url('#{$static-path}/fonts/IBMPlexSans-Regular.ttf') format('truetype');
-  font-weight: 400;
-  font-style: normal;
+    font-family: 'Plex';
+    src: url('#{$static-path}/fonts/IBMPlexSans-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
 }
 
 @font-face {
-  font-family: 'Plex';
-  src:
-    url('#{$static-path}/fonts/IBMPlexSans-Italic.ttf') format('truetype');
-  font-weight: 400;
-  font-style: italic;
+    font-family: 'Plex';
+    src: url('#{$static-path}/fonts/IBMPlexSans-Italic.ttf') format('truetype');
+    font-weight: 400;
+    font-style: italic;
 }
 
 @font-face {
-  font-family: 'Plex';
-  src:
-    url('#{$static-path}/fonts/IBMPlexSans-SemiBold.ttf') format('truetype');
-  font-weight: 600;
-  font-style: normal;
+    font-family: 'Plex';
+    src: url('#{$static-path}/fonts/IBMPlexSans-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
 }
 
 @font-face {
-  font-family: 'Plex';
-  src:
-    url('#{$static-path}/fonts/IBMPlexSans-SemiBoldItalic.ttf') format('truetype');
-  font-weight: 600;
-  font-style: italic;
+    font-family: 'Plex';
+    src: url('#{$static-path}/fonts/IBMPlexSans-SemiBoldItalic.ttf') format('truetype');
+    font-weight: 600;
+    font-style: italic;
 }
 
 @font-face {
-  font-family: 'Plex';
-  src:
-    url('#{$static-path}/fonts/IBMPlexSans-Bold.ttf') format('truetype');
-  font-weight: 700;
-  font-style: normal;
+    font-family: 'Plex';
+    src: url('#{$static-path}/fonts/IBMPlexSans-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
 }
 
 @font-face {
-  font-family: 'Plex';
-  src:
-    url('#{$static-path}/fonts/IBMPlexSans-BoldItalic.ttf') format('truetype');
-  font-weight: 700;
-  font-style: italic;
+    font-family: 'Plex';
+    src: url('#{$static-path}/fonts/IBMPlexSans-BoldItalic.ttf') format('truetype');
+    font-weight: 700;
+    font-style: italic;
 }
 
 ///////// Serif
 @font-face {
-  font-family: 'Crimson';
-  src:
-    url('#{$static-path}/fonts/CrimsonText-Regular.ttf') format('truetype');
-  font-weight: 400;
-  font-style: normal;
+    font-family: 'Crimson';
+    src: url('#{$static-path}/fonts/OpenSans-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
 }
 
 @font-face {
-  font-family: 'Crimson';
-  src:
-    url('#{$static-path}/fonts/CrimsonText-Italic.ttf') format('truetype');
-  font-weight: 400;
-  font-style: italic;
+    font-family: 'Crimson';
+    src: url('#{$static-path}/fonts/CrimsonText-Italic.ttf') format('truetype');
+    font-weight: 400;
+    font-style: italic;
 }
 
 @font-face {
-  font-family: 'Crimson';
-  src:
-    url('#{$static-path}/fonts/CrimsonText-SemiBold.ttf') format('truetype');
-  font-weight: 600;
-  font-style: normal;
+    font-family: 'Crimson';
+    src : url('#{$static-path}/fonts/CrimsonText-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
 }
 
 @font-face {
-  font-family: 'Crimson';
+    font-family: 'Crimson';
   src:
     url('#{$static-path}/fonts/CrimsonText-SemiBoldItalic.ttf') format('truetype');
   font-weight: 600;
@@ -96,17 +86,59 @@
 }
 
 @font-face {
-  font-family: 'Crimson';
-  src:
-    url('#{$static-path}/fonts/CrimsonText-Bold.ttf') format('truetype');
-  font-weight: 700;
-  font-style: normal;
+    font-family: 'Crimson';
+    src: url('#{$static-path}/fonts/CrimsonText-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
 }
 
 @font-face {
-  font-family: 'Crimson';
-  src:
-    url('#{$static-path}/fonts/CrimsonText-BoldItalic.ttf') format('truetype');
-  font-weight: 700;
-  font-style: italic;
+    font-family: 'Crimson';
+    src: url('#{$static-path}/fonts/CrimsonText-BoldItalic.ttf') format('truetype');
+    font-weight: 700;
+    font-style: italic;
+}
+
+// Open sans
+///////// Serif
+@font-face {
+    font-family: 'Sans';
+    src: url('#{$static-path}/fonts/OpenSans-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Sans';
+    src: url('#{$static-path}/fonts/OpenSans-Italic.ttf') format('truetype');
+    font-weight: 400;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Sans';
+    src: url('#{$static-path}/fonts/OpenSans-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Sans';
+    src: url('#{$static-path}/fonts/OpenSans-SemiBoldItalic.ttf') format('truetype');
+    font-weight: 600;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Sans';
+    src: url('#{$static-path}/fonts/OpenSans-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Sans';
+    src: url('#{$static-path}/fonts/OpenSans-BoldItalic.ttf') format('truetype');
+    font-weight: 700;
+    font-style: italic;
 }
